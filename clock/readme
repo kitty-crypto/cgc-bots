@@ -1,0 +1,3 @@
+Bot used for the functioning of This is the Mae's bot (discord version)
+
+The bot sends a message to a specific discord channel every hour in order to trigger the "on message" event from Mae Bot. This is so in case the main Catgirlcoin server is quier, Mae still has a message trigger to run her async functions such as sending the daily task.

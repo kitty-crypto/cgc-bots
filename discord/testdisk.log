@@ -1,0 +1,1407 @@
+
+
+Tue Apr  4 21:35:26 2023
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.15.61-v8+ (#1579 SMP PREEMPT Fri Aug 26 11:16:44 BST 2022) aarch64
+Compiler: GCC 9.2
+ext2fs lib: 1.46.2, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop0 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop1 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop2 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop3 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop4 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop5 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop6 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop7 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/mmcblk0 - 31 GB / 29 GiB - CHS 973968 4 16, sector size=512
+
+Partition table type (auto): Intel
+Disk /dev/mmcblk0 - 31 GB / 29 GiB
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=64 sector=32
+BAD_RS LBA=8192 4096
+FAT32 at 128/0/1
+Info: size boot_sector 524288, partition 524288
+FAT1 : 32-4064
+FAT2 : 4065-8097
+start_rootdir : 8098 root cluster : 2
+Data : 8098-524287
+sectors : 524288
+cluster_size : 1
+no_of_cluster : 516190 (2 - 516191)
+fat_length 4033 calculated 4033
+heads/cylinder 64 (FAT) != 4 (HD)
+sect/track 32 (FAT) != 16 (HD)
+get_geometry_from_list_part_aux head=4 nbr=4
+get_geometry_from_list_part_aux head=8 nbr=4
+get_geometry_from_list_part_aux head=16 nbr=4
+get_geometry_from_list_part_aux head=32 nbr=4
+get_geometry_from_list_part_aux head=64 nbr=4
+get_geometry_from_list_part_aux head=128 nbr=3
+ 1 P FAT32 LBA              128   0  1  8319   3 16     524288 [boot]
+     FAT32, blocksize=512, 268 MB / 256 MiB
+ 2 P Linux                 8320   0  1 973967   3 16   61801472 [rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 31 GB / 29 GiB
+search_superblock
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=78/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Sat Mar 25 22:17:01 2023
+Ext2 superblock found at sector 2 (block=0, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 262144 (block=32768, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 786432 (block=98304, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1310720 (block=163840, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1835008 (block=229376, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 2359296 (block=294912, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 6553600 (block=819200, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 7077888 (block=884736, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 12845056 (block=1605632, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 21233664 (block=2654208, blocksize=4096)
+  Linux                 8320   0  1 973967   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                12416   0  1 978063   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                20608   0  1 986255   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                28800   0  1 994447   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                36992   0  1 1002639   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                45184   0  1 1010831   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                110720   0  1 1076367   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                118912   0  1 1084559   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                209024   0  1 1174671   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                340096   0  1 1305743   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+
+To repair the filesystem using alternate superblock, run
+fsck.ext4 -p -b superblock -B blocksize device
+search_superblock
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=78/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Sat Mar 25 22:17:01 2023
+Ext2 superblock found at sector 2 (block=0, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 262144 (block=32768, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 786432 (block=98304, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1310720 (block=163840, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1835008 (block=229376, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 2359296 (block=294912, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 6553600 (block=819200, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 7077888 (block=884736, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 12845056 (block=1605632, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 21233664 (block=2654208, blocksize=4096)
+  Linux                 8320   0  1 973967   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                12416   0  1 978063   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                20608   0  1 986255   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                28800   0  1 994447   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                36992   0  1 1002639   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                45184   0  1 1010831   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                110720   0  1 1076367   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                118912   0  1 1084559   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                209024   0  1 1174671   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                340096   0  1 1305743   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+
+To repair the filesystem using alternate superblock, run
+fsck.ext4 -p -b superblock -B blocksize device
+search_superblock
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=78/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Sat Mar 25 22:17:01 2023
+Ext2 superblock found at sector 2 (block=0, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 262144 (block=32768, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 786432 (block=98304, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1310720 (block=163840, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1835008 (block=229376, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 2359296 (block=294912, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 6553600 (block=819200, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 7077888 (block=884736, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 12845056 (block=1605632, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 21233664 (block=2654208, blocksize=4096)
+  Linux                 8320   0  1 973967   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                12416   0  1 978063   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                20608   0  1 986255   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                28800   0  1 994447   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                36992   0  1 1002639   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                45184   0  1 1010831   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                110720   0  1 1076367   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                118912   0  1 1084559   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                209024   0  1 1174671   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                340096   0  1 1305743   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+
+To repair the filesystem using alternate superblock, run
+fsck.ext4 -p -b superblock -B blocksize device
+search_superblock
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=78/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Sat Mar 25 22:17:01 2023
+Ext2 superblock found at sector 2 (block=0, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 262144 (block=32768, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 786432 (block=98304, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1310720 (block=163840, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1835008 (block=229376, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 2359296 (block=294912, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 6553600 (block=819200, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 7077888 (block=884736, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 12845056 (block=1605632, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 21233664 (block=2654208, blocksize=4096)
+  Linux                 8320   0  1 973967   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                12416   0  1 978063   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                20608   0  1 986255   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                28800   0  1 994447   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                36992   0  1 1002639   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                45184   0  1 1010831   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                110720   0  1 1076367   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                118912   0  1 1084559   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                209024   0  1 1174671   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                340096   0  1 1305743   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+
+To repair the filesystem using alternate superblock, run
+fsck.ext4 -p -b superblock -B blocksize device
+search_superblock
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=78/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Sat Mar 25 22:17:01 2023
+Ext2 superblock found at sector 2 (block=0, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 262144 (block=32768, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 786432 (block=98304, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1310720 (block=163840, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1835008 (block=229376, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 2359296 (block=294912, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 6553600 (block=819200, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 7077888 (block=884736, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 12845056 (block=1605632, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 21233664 (block=2654208, blocksize=4096)
+  Linux                 8320   0  1 973967   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                12416   0  1 978063   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                20608   0  1 986255   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                28800   0  1 994447   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                36992   0  1 1002639   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                45184   0  1 1010831   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                110720   0  1 1076367   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                118912   0  1 1084559   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                209024   0  1 1174671   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                340096   0  1 1305743   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+
+To repair the filesystem using alternate superblock, run
+fsck.ext4 -p -b superblock -B blocksize device
+search_superblock
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=78/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Sat Mar 25 22:17:01 2023
+Ext2 superblock found at sector 2 (block=0, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 262144 (block=32768, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 786432 (block=98304, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1310720 (block=163840, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1835008 (block=229376, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 2359296 (block=294912, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 6553600 (block=819200, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 7077888 (block=884736, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 12845056 (block=1605632, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 21233664 (block=2654208, blocksize=4096)
+  Linux                 8320   0  1 973967   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                12416   0  1 978063   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                20608   0  1 986255   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                28800   0  1 994447   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                36992   0  1 1002639   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                45184   0  1 1010831   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                110720   0  1 1076367   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                118912   0  1 1084559   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                209024   0  1 1174671   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                340096   0  1 1305743   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+
+To repair the filesystem using alternate superblock, run
+fsck.ext4 -p -b superblock -B blocksize device
+search_superblock
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=78/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Sat Mar 25 22:17:01 2023
+Ext2 superblock found at sector 2 (block=0, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 262144 (block=32768, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 786432 (block=98304, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1310720 (block=163840, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1835008 (block=229376, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 2359296 (block=294912, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 6553600 (block=819200, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 7077888 (block=884736, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 12845056 (block=1605632, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 21233664 (block=2654208, blocksize=4096)
+  Linux                 8320   0  1 973967   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                12416   0  1 978063   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                20608   0  1 986255   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                28800   0  1 994447   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                36992   0  1 1002639   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                45184   0  1 1010831   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                110720   0  1 1076367   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                118912   0  1 1084559   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                209024   0  1 1174671   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                340096   0  1 1305743   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+
+To repair the filesystem using alternate superblock, run
+fsck.ext4 -p -b superblock -B blocksize device
+search_superblock
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=78/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Sat Mar 25 22:17:01 2023
+Ext2 superblock found at sector 2 (block=0, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 262144 (block=32768, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 786432 (block=98304, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1310720 (block=163840, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1835008 (block=229376, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 2359296 (block=294912, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 6553600 (block=819200, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 7077888 (block=884736, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 12845056 (block=1605632, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 21233664 (block=2654208, blocksize=4096)
+  Linux                 8320   0  1 973967   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                12416   0  1 978063   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                20608   0  1 986255   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                28800   0  1 994447   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                36992   0  1 1002639   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                45184   0  1 1010831   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                110720   0  1 1076367   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                118912   0  1 1084559   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                209024   0  1 1174671   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                340096   0  1 1305743   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+
+To repair the filesystem using alternate superblock, run
+fsck.ext4 -p -b superblock -B blocksize device
+search_superblock
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=78/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Sat Mar 25 22:17:01 2023
+Ext2 superblock found at sector 2 (block=0, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 262144 (block=32768, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 786432 (block=98304, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1310720 (block=163840, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1835008 (block=229376, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 2359296 (block=294912, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 6553600 (block=819200, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 7077888 (block=884736, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 12845056 (block=1605632, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 21233664 (block=2654208, blocksize=4096)
+  Linux                 8320   0  1 973967   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                12416   0  1 978063   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                20608   0  1 986255   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                28800   0  1 994447   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                36992   0  1 1002639   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                45184   0  1 1010831   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                110720   0  1 1076367   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                118912   0  1 1084559   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                209024   0  1 1174671   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                340096   0  1 1305743   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+
+To repair the filesystem using alternate superblock, run
+fsck.ext4 -p -b superblock -B blocksize device
+
+FAT: cluster=2(0x2), pos=16290
+FAT: cluster=166(0xa6), pos=16454
+FAT: cluster=507(0x1fb), pos=16795
+FAT: cluster=933(0x3a5), pos=17221
+FAT: cluster=16975(0x424f), pos=33263
+FAT: cluster=60089(0xeab9), pos=76377
+Directory /
+       3 drwxr-xr-x     0      0         0 13-Sep-2022 12:53 overlays
+   16074 -rwxr-xr-x     0      0     32482 13-Sep-2022 12:51 bcm2710-rpi-3-b-plus.dtb
+X  16015 -rwxr-xr-x     0      0     30119 13-Sep-2022 12:51 _CM271~1.TMP
+       5 -rwxr-xr-x     0      0   8192917 13-Sep-2022 12:51 kernel8.img
+   16787 -rwxr-xr-x     0      0     18693 13-Sep-2022 12:51 COPYING.linux
+   61656 -rwxr-xr-x     0      0       145  4-Apr-2022 14:52 issue.txt
+   16015 -rwxr-xr-x     0      0     30119 13-Sep-2022 12:51 bcm2710-rpi-2-b.dtb
+   16260 -rwxr-xr-x     0      0     31179 13-Sep-2022 12:51 bcm2710-rpi-zero-2-w.dtb
+X  16201 -rwxr-xr-x     0      0     30106 13-Sep-2022 12:51 _CM271~1.TMP
+   16138 -rwxr-xr-x     0      0     31871 13-Sep-2022 12:51 bcm2710-rpi-3-b.dtb
+   16201 -rwxr-xr-x     0      0     30106 13-Sep-2022 12:51 bcm2710-rpi-cm3.dtb
+X  62015 -rwxr-xr-x     0      0      1594 13-Sep-2022 12:53 LICENCE.broadcom.dpkg-divert.tmp
+   16321 -rwxr-xr-x     0      0     31179 13-Sep-2022 12:51 bcm2710-rpi-zero-2.dtb
+   16382 -rwxr-xr-x     0      0     51955 13-Sep-2022 12:51 bcm2711-rpi-4-b.dtb
+   16484 -rwxr-xr-x     0      0     52087 13-Sep-2022 12:51 bcm2711-rpi-400.dtb
+   16586 -rwxr-xr-x     0      0     52540 13-Sep-2022 12:51 bcm2711-rpi-cm4.dtb
+   18564 -rwxr-xr-x     0      0   2973536 13-Sep-2022 12:53 start.elf
+   61655 -rwxr-xr-x     0      0       147 10-Sep-2022 08:39 cmdline.txt
+       6 -rwxr-xr-x     0      0      2150 11-Sep-2022 06:56 config.txt
+   16689 -rwxr-xr-x     0      0     49870 13-Sep-2022 12:51 bcm2711-rpi-cm4s.dtb
+   24374 -rwxr-xr-x     0      0    803964 13-Sep-2022 12:53 start_cd.elf
+   25945 -rwxr-xr-x     0      0   4816712 13-Sep-2022 12:53 start_db.elf
+   35353 -rwxr-xr-x     0      0   3720360 13-Sep-2022 12:53 start_x.elf
+   42620 -rwxr-xr-x     0      0      7262 13-Sep-2022 12:53 fixup.dat
+   42635 -rwxr-xr-x     0      0      3170 13-Sep-2022 12:53 fixup_cd.dat
+   42642 -rwxr-xr-x     0      0     10228 13-Sep-2022 12:53 fixup_db.dat
+   42662 -rwxr-xr-x     0      0     10226 13-Sep-2022 12:53 fixup_x.dat
+   42682 -rwxr-xr-x     0      0     52460 13-Sep-2022 12:53 bootcode.bin
+   42785 -rwxr-xr-x     0      0   2249280 13-Sep-2022 12:53 start4.elf
+   47179 -rwxr-xr-x     0      0    803964 13-Sep-2022 12:53 start4cd.elf
+   48750 -rwxr-xr-x     0      0   3744808 13-Sep-2022 12:53 start4db.elf
+   56065 -rwxr-xr-x     0      0   2996680 13-Sep-2022 12:53 start4x.elf
+   61963 -rwxr-xr-x     0      0      5399 13-Sep-2022 12:53 fixup4.dat
+   61974 -rwxr-xr-x     0      0      3170 13-Sep-2022 12:53 fixup4cd.dat
+   61981 -rwxr-xr-x     0      0      8379 13-Sep-2022 12:53 fixup4db.dat
+X  52828 -rwxr-xr-x     0      0   3717480 31-Mar-2022 19:40 _TART_X.ELF
+  458754 drwxr-xr-x     0      0         0 16-Aug-2022 18:55 System Volume Information
+   61998 -rwxr-xr-x     0      0      8379 13-Sep-2022 12:53 fixup4x.dat
+   62015 -rwxr-xr-x     0      0      1594 13-Sep-2022 12:53 LICENCE.broadcom
+X      0 -rwxr-xr-x     0      0         0 13-Sep-2022 12:48 bcm2710-rpi-3-b-plus.dtb.dpkg-divert.tmp
+
+Interface Advanced
+Geometry from i386 MBR: head=64 sector=32
+BAD_RS LBA=8192 4096
+FAT32 at 128/0/1
+Info: size boot_sector 524288, partition 524288
+FAT1 : 32-4064
+FAT2 : 4065-8097
+start_rootdir : 8098 root cluster : 2
+Data : 8098-524287
+sectors : 524288
+cluster_size : 1
+no_of_cluster : 516190 (2 - 516191)
+fat_length 4033 calculated 4033
+heads/cylinder 64 (FAT) != 4 (HD)
+sect/track 32 (FAT) != 16 (HD)
+get_geometry_from_list_part_aux head=4 nbr=4
+get_geometry_from_list_part_aux head=8 nbr=4
+get_geometry_from_list_part_aux head=16 nbr=4
+get_geometry_from_list_part_aux head=32 nbr=4
+get_geometry_from_list_part_aux head=64 nbr=4
+get_geometry_from_list_part_aux head=128 nbr=3
+ 1 P FAT32 LBA              128   0  1  8319   3 16     524288 [boot]
+     FAT32, blocksize=512, 268 MB / 256 MiB
+ 2 P Linux                 8320   0  1 973967   3 16   61801472 [rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 31 GB / 29 GiB
+
+
+dir_partition inode=2
+ 2 P Linux                 8320   0  1 973967   3 16   61801472 [rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 31 GB / 29 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096  4-Apr-2023 21:30 .
+       2 drwxr-xr-x     0      0      4096  4-Apr-2023 21:30 ..
+      11 drwx------     0      0     16384  4-Apr-2022 15:51 lost+found
+      12 drwxr-xr-x     0      0      4096  4-Apr-2022 15:51 boot
+      13 lrwxrwxrwx     0      0         7  4-Apr-2022 15:25 bin
+      14 lrwxrwxrwx     0      0         7  4-Apr-2022 15:25 lib
+      15 lrwxrwxrwx     0      0         8  4-Apr-2022 15:25 sbin
+      16 drwxr-xr-x     0      0      4096  4-Apr-2022 15:25 dev
+      17 drwxr-xr-x     0      0      4096 13-Sep-2022 13:55 etc
+      18 drwxr-xr-x     0      0      4096 16-Aug-2022 18:58 home
+      19 drwxr-xr-x     0      0      4096 17-Aug-2022 17:46 media
+      20 drwxr-xr-x     0      0      4096  4-Apr-2022 15:25 mnt
+      21 drwxr-xr-x     0      0      4096  4-Apr-2022 15:34 opt
+      22 drwxr-xr-x     0      0      4096 19-Mar-2022 13:46 proc
+      23 drwx------     0      0      4096 10-Sep-2022 08:41 root
+      24 drwxr-xr-x     0      0      4096  4-Apr-2022 15:36 run
+      25 drwxr-xr-x     0      0      4096  4-Apr-2022 15:25 srv
+      26 drwxr-xr-x     0      0      4096 19-Mar-2022 13:46 sys
+      27 drwxrwxrwt     0      0      4096  4-Apr-2023 21:32 tmp
+      28 drwxr-xr-x     0      0      4096  4-Apr-2022 15:25 usr
+      29 drwxr-xr-x     0      0      4096  4-Apr-2022 15:53 var
+   28391 -rw-r--r--     0      0         0  4-Apr-2023 21:31 testdisk.log
+
+dir_partition inode=18
+ 2 P Linux                 8320   0  1 973967   3 16   61801472 [rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 31 GB / 29 GiB
+Directory /home
+      18 drwxr-xr-x     0      0      4096 16-Aug-2022 18:58 .
+       2 drwxr-xr-x     0      0      4096  4-Apr-2023 21:30 ..
+    1322 drwxr-xr-x  1000   1000      4096  4-Apr-2023 21:21 javi
+
+dir_partition inode=1322
+ 2 P Linux                 8320   0  1 973967   3 16   61801472 [rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 31 GB / 29 GiB
+Directory /home/javi
+    1322 drwxr-xr-x  1000   1000      4096  4-Apr-2023 21:21 .
+      18 drwxr-xr-x     0      0      4096 16-Aug-2022 18:58 ..
+    1323 drwxr-xr-x  1000   1000      4096 11-Sep-2022 07:57 .local
+    1324 drwxr-xr-x  1000   1000      4096  4-Apr-2022 15:36 Bookshelf
+  259093 drwx------  1000   1000      4096  5-Oct-2022 10:19 .config
+  259448 drwx------  1000   1000      4096 16-Aug-2022 21:03 .vnc
+    1955 -rw-r--r--  1000   1000       220  4-Apr-2022 15:28 .bash_logout
+    1956 -rw-r--r--  1000   1000      3565 11-Sep-2022 15:20 .bashrc
+    1957 -rw-r--r--  1000   1000       807  4-Apr-2022 15:28 .profile
+   37043 -rw-------  1000   1000       170 26-Mar-2023 12:27 .Xauthority
+      45 -rw-------  1000   1000      2402 26-Mar-2023 12:29 .xsession-errors
+  259078 drwxr-xr-x  1000   1000      4096  1-Oct-2022 13:06 Desktop
+  259104 drwxr-xr-x  1000   1000      4096 15-Sep-2022 14:32 .cache
+  259110 drwxr-xr-x  1000   1000      4096 11-Sep-2022 13:03 Downloads
+  259111 drwxr-xr-x  1000   1000      4096 16-Aug-2022 18:58 Templates
+  259112 drwxr-xr-x  1000   1000      4096 16-Aug-2022 18:58 Public
+  259113 drwxr-xr-x  1000   1000      4096 16-Aug-2022 18:58 Documents
+  259114 drwxr-xr-x  1000   1000      4096 16-Aug-2022 18:58 Music
+  259115 drwxr-xr-x  1000   1000      4096 16-Aug-2022 18:58 Pictures
+  259116 drwxr-xr-x  1000   1000      4096 16-Aug-2022 18:58 Videos
+   24250 -rw-------  1000   1000     18262  4-Apr-2023 21:22 .bash_history
+    1626 -rw-------  1000   1000      2402 26-Mar-2023 12:25 .xsession-errors.old
+  259459 drwx------  1000   1000      4096 16-Aug-2022 20:12 .cups
+  259158 drwx------  1000   1000      4096 16-Aug-2022 20:15 .pp_backup
+  262615 drwx------  1000   1000      4096 16-Aug-2022 20:24 .pki
+  260144 drwxr-xr-x  1000   1000      4096 16-Aug-2022 20:47 .audacity-data
+  260293 drwxr-xr-x  1000   1000      4096 16-Aug-2022 20:40 .vscode
+    2526 -rw-r--r--  1000   1000  25372998  7-Dec-2020 22:42 Python-3.9.1.tgz
+    7323 -rw-r--r--  1000   1000       169 17-Aug-2022 20:01 .wget-hsts
+  260048 drwxr-xr-x  1000   1000      4096 17-Aug-2022 21:11 Python-3.9.1
+  388955 drwxrwxrwx  1000   1000      4096 11-Sep-2022 07:58 server
+   24144 -rwxr-xr-x  1000   1000       551 15-Mar-2023 07:32 mae_discord.sh
+   37067 -rwxr-xr-x  1000   1000       169 11-Sep-2022 15:17 mae_clock.sh
+   37061 -rw-r--r--  1000   1000      3985 11-Sep-2022 15:18 .bashrc.save
+   37046 -rw-r--r--  1000   1000        66 11-Sep-2022 15:38 .selected_editor
+  404750 drwx------  1000   1000      4096 12-Sep-2022 20:46 .gnome
+    1118 -rw-r--r--  1000   1000         2 13-Sep-2022 14:33 database.db
+    7325 -rw-------  1000   1000      1041  2-Apr-2023 19:14 .python_history
+   24222 -rw-r--r--  1000   1000       661 20-Sep-2022 14:11 helloworld.asm
+    2258 -rwxr-xr-x  1000   1000       250 15-Mar-2023 07:34 mae_reddit.sh
+   24147 -rwxr-xr-x  1000   1000       285 16-Mar-2023 16:49 mae_reddit_submissions.sh
+    5123 -rw-------  1000   1000         0  2-Apr-2023 19:14 .python_history-93637.tmp
+   24230 -rwxr-xr-x  1000   1000       257  4-Apr-2023 08:53 feline.sh
+   23402 -rw-r--r--     0      0    311296  4-Apr-2023 21:16 testdisk.log
+   28213 -rw-r--r--  1000   1000         0  4-Apr-2023 21:20 .database.db.swp
+   28343 -rw-r--r--  1000   1000         0  4-Apr-2023 21:21 .testdisk.log.swp
+Directory /home
+      18 drwxr-xr-x     0      0      4096 16-Aug-2022 18:58 .
+       2 drwxr-xr-x     0      0      4096  4-Apr-2023 21:30 ..
+    1322 drwxr-xr-x  1000   1000      4096  4-Apr-2023 21:21 javi
+Directory /
+       2 drwxr-xr-x     0      0      4096  4-Apr-2023 21:30 .
+       2 drwxr-xr-x     0      0      4096  4-Apr-2023 21:30 ..
+      11 drwx------     0      0     16384  4-Apr-2022 15:51 lost+found
+      12 drwxr-xr-x     0      0      4096  4-Apr-2022 15:51 boot
+      13 lrwxrwxrwx     0      0         7  4-Apr-2022 15:25 bin
+      14 lrwxrwxrwx     0      0         7  4-Apr-2022 15:25 lib
+      15 lrwxrwxrwx     0      0         8  4-Apr-2022 15:25 sbin
+      16 drwxr-xr-x     0      0      4096  4-Apr-2022 15:25 dev
+      17 drwxr-xr-x     0      0      4096 13-Sep-2022 13:55 etc
+      18 drwxr-xr-x     0      0      4096 16-Aug-2022 18:58 home
+      19 drwxr-xr-x     0      0      4096 17-Aug-2022 17:46 media
+      20 drwxr-xr-x     0      0      4096  4-Apr-2022 15:25 mnt
+      21 drwxr-xr-x     0      0      4096  4-Apr-2022 15:34 opt
+      22 drwxr-xr-x     0      0      4096 19-Mar-2022 13:46 proc
+      23 drwx------     0      0      4096 10-Sep-2022 08:41 root
+      24 drwxr-xr-x     0      0      4096  4-Apr-2022 15:36 run
+      25 drwxr-xr-x     0      0      4096  4-Apr-2022 15:25 srv
+      26 drwxr-xr-x     0      0      4096 19-Mar-2022 13:46 sys
+      27 drwxrwxrwt     0      0      4096  4-Apr-2023 21:32 tmp
+      28 drwxr-xr-x     0      0      4096  4-Apr-2022 15:25 usr
+      29 drwxr-xr-x     0      0      4096  4-Apr-2022 15:53 var
+   28391 -rw-r--r--     0      0         0  4-Apr-2023 21:31 testdisk.log
+
+FAT: cluster=2(0x2), pos=16290
+FAT: cluster=166(0xa6), pos=16454
+FAT: cluster=507(0x1fb), pos=16795
+FAT: cluster=933(0x3a5), pos=17221
+FAT: cluster=16975(0x424f), pos=33263
+FAT: cluster=60089(0xeab9), pos=76377
+Directory /
+       3 drwxr-xr-x     0      0         0 13-Sep-2022 12:53 overlays
+   16074 -rwxr-xr-x     0      0     32482 13-Sep-2022 12:51 bcm2710-rpi-3-b-plus.dtb
+X  16015 -rwxr-xr-x     0      0     30119 13-Sep-2022 12:51 _CM271~1.TMP
+       5 -rwxr-xr-x     0      0   8192917 13-Sep-2022 12:51 kernel8.img
+   16787 -rwxr-xr-x     0      0     18693 13-Sep-2022 12:51 COPYING.linux
+   61656 -rwxr-xr-x     0      0       145  4-Apr-2022 14:52 issue.txt
+   16015 -rwxr-xr-x     0      0     30119 13-Sep-2022 12:51 bcm2710-rpi-2-b.dtb
+   16260 -rwxr-xr-x     0      0     31179 13-Sep-2022 12:51 bcm2710-rpi-zero-2-w.dtb
+X  16201 -rwxr-xr-x     0      0     30106 13-Sep-2022 12:51 _CM271~1.TMP
+   16138 -rwxr-xr-x     0      0     31871 13-Sep-2022 12:51 bcm2710-rpi-3-b.dtb
+   16201 -rwxr-xr-x     0      0     30106 13-Sep-2022 12:51 bcm2710-rpi-cm3.dtb
+X  62015 -rwxr-xr-x     0      0      1594 13-Sep-2022 12:53 LICENCE.broadcom.dpkg-divert.tmp
+   16321 -rwxr-xr-x     0      0     31179 13-Sep-2022 12:51 bcm2710-rpi-zero-2.dtb
+   16382 -rwxr-xr-x     0      0     51955 13-Sep-2022 12:51 bcm2711-rpi-4-b.dtb
+   16484 -rwxr-xr-x     0      0     52087 13-Sep-2022 12:51 bcm2711-rpi-400.dtb
+   16586 -rwxr-xr-x     0      0     52540 13-Sep-2022 12:51 bcm2711-rpi-cm4.dtb
+   18564 -rwxr-xr-x     0      0   2973536 13-Sep-2022 12:53 start.elf
+   61655 -rwxr-xr-x     0      0       147 10-Sep-2022 08:39 cmdline.txt
+       6 -rwxr-xr-x     0      0      2150 11-Sep-2022 06:56 config.txt
+   16689 -rwxr-xr-x     0      0     49870 13-Sep-2022 12:51 bcm2711-rpi-cm4s.dtb
+   24374 -rwxr-xr-x     0      0    803964 13-Sep-2022 12:53 start_cd.elf
+   25945 -rwxr-xr-x     0      0   4816712 13-Sep-2022 12:53 start_db.elf
+   35353 -rwxr-xr-x     0      0   3720360 13-Sep-2022 12:53 start_x.elf
+   42620 -rwxr-xr-x     0      0      7262 13-Sep-2022 12:53 fixup.dat
+   42635 -rwxr-xr-x     0      0      3170 13-Sep-2022 12:53 fixup_cd.dat
+   42642 -rwxr-xr-x     0      0     10228 13-Sep-2022 12:53 fixup_db.dat
+   42662 -rwxr-xr-x     0      0     10226 13-Sep-2022 12:53 fixup_x.dat
+   42682 -rwxr-xr-x     0      0     52460 13-Sep-2022 12:53 bootcode.bin
+   42785 -rwxr-xr-x     0      0   2249280 13-Sep-2022 12:53 start4.elf
+   47179 -rwxr-xr-x     0      0    803964 13-Sep-2022 12:53 start4cd.elf
+   48750 -rwxr-xr-x     0      0   3744808 13-Sep-2022 12:53 start4db.elf
+   56065 -rwxr-xr-x     0      0   2996680 13-Sep-2022 12:53 start4x.elf
+   61963 -rwxr-xr-x     0      0      5399 13-Sep-2022 12:53 fixup4.dat
+   61974 -rwxr-xr-x     0      0      3170 13-Sep-2022 12:53 fixup4cd.dat
+   61981 -rwxr-xr-x     0      0      8379 13-Sep-2022 12:53 fixup4db.dat
+X  52828 -rwxr-xr-x     0      0   3717480 31-Mar-2022 19:40 _TART_X.ELF
+  458754 drwxr-xr-x     0      0         0 16-Aug-2022 18:55 System Volume Information
+   61998 -rwxr-xr-x     0      0      8379 13-Sep-2022 12:53 fixup4x.dat
+   62015 -rwxr-xr-x     0      0      1594 13-Sep-2022 12:53 LICENCE.broadcom
+X      0 -rwxr-xr-x     0      0         0 13-Sep-2022 12:48 bcm2710-rpi-3-b-plus.dtb.dpkg-divert.tmp
+New options :
+ Dump : No
+ Align partition: Yes
+ Expert mode : No
+
+Interface Advanced
+Geometry from i386 MBR: head=64 sector=32
+BAD_RS LBA=8192 4096
+FAT32 at 128/0/1
+Info: size boot_sector 524288, partition 524288
+FAT1 : 32-4064
+FAT2 : 4065-8097
+start_rootdir : 8098 root cluster : 2
+Data : 8098-524287
+sectors : 524288
+cluster_size : 1
+no_of_cluster : 516190 (2 - 516191)
+fat_length 4033 calculated 4033
+heads/cylinder 64 (FAT) != 4 (HD)
+sect/track 32 (FAT) != 16 (HD)
+get_geometry_from_list_part_aux head=4 nbr=4
+get_geometry_from_list_part_aux head=8 nbr=4
+get_geometry_from_list_part_aux head=16 nbr=4
+get_geometry_from_list_part_aux head=32 nbr=4
+get_geometry_from_list_part_aux head=64 nbr=4
+get_geometry_from_list_part_aux head=128 nbr=3
+ 1 P FAT32 LBA              128   0  1  8319   3 16     524288 [boot]
+     FAT32, blocksize=512, 268 MB / 256 MiB
+ 2 P Linux                 8320   0  1 973967   3 16   61801472 [rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 31 GB / 29 GiB
+search_superblock
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=78/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Sat Mar 25 22:17:01 2023
+Ext2 superblock found at sector 2 (block=0, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 262144 (block=32768, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 786432 (block=98304, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1310720 (block=163840, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 1835008 (block=229376, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 2359296 (block=294912, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 6553600 (block=819200, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 7077888 (block=884736, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 12845056 (block=1605632, blocksize=4096)
+
+recover_EXT2: s_block_group_nr=0/235, s_mnt_count=4/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8096
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7725184
+recover_EXT2: part_size 61801472
+Filesystem created: Mon Apr  4 15:51:22 2022
+Last mount time:    Mon Apr  4 15:52:59 2022
+Ext2 superblock found at sector 21233664 (block=2654208, blocksize=4096)
+  Linux                 8320   0  1 973967   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                12416   0  1 978063   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                20608   0  1 986255   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                28800   0  1 994447   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                36992   0  1 1002639   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                45184   0  1 1010831   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                110720   0  1 1076367   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                118912   0  1 1084559   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                209024   0  1 1174671   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+  Linux                340096   0  1 1305743   3 16   61801472 [rootfs]
+superblock 0, blocksize=4096 [rootfs]
+
+To repair the filesystem using alternate superblock, run
+fsck.ext4 -p -b superblock -B blocksize device
+
+FAT: cluster=2(0x2), pos=16290
+FAT: cluster=166(0xa6), pos=16454
+FAT: cluster=507(0x1fb), pos=16795
+FAT: cluster=933(0x3a5), pos=17221
+FAT: cluster=16975(0x424f), pos=33263
+FAT: cluster=60089(0xeab9), pos=76377
+Directory /
+       3 drwxr-xr-x     0      0         0 13-Sep-2022 12:53 overlays
+   16074 -rwxr-xr-x     0      0     32482 13-Sep-2022 12:51 bcm2710-rpi-3-b-plus.dtb
+X  16015 -rwxr-xr-x     0      0     30119 13-Sep-2022 12:51 _CM271~1.TMP
+       5 -rwxr-xr-x     0      0   8192917 13-Sep-2022 12:51 kernel8.img
+   16787 -rwxr-xr-x     0      0     18693 13-Sep-2022 12:51 COPYING.linux
+   61656 -rwxr-xr-x     0      0       145  4-Apr-2022 14:52 issue.txt
+   16015 -rwxr-xr-x     0      0     30119 13-Sep-2022 12:51 bcm2710-rpi-2-b.dtb
+   16260 -rwxr-xr-x     0      0     31179 13-Sep-2022 12:51 bcm2710-rpi-zero-2-w.dtb
+X  16201 -rwxr-xr-x     0      0     30106 13-Sep-2022 12:51 _CM271~1.TMP
+   16138 -rwxr-xr-x     0      0     31871 13-Sep-2022 12:51 bcm2710-rpi-3-b.dtb
+   16201 -rwxr-xr-x     0      0     30106 13-Sep-2022 12:51 bcm2710-rpi-cm3.dtb
+X  62015 -rwxr-xr-x     0      0      1594 13-Sep-2022 12:53 LICENCE.broadcom.dpkg-divert.tmp
+   16321 -rwxr-xr-x     0      0     31179 13-Sep-2022 12:51 bcm2710-rpi-zero-2.dtb
+   16382 -rwxr-xr-x     0      0     51955 13-Sep-2022 12:51 bcm2711-rpi-4-b.dtb
+   16484 -rwxr-xr-x     0      0     52087 13-Sep-2022 12:51 bcm2711-rpi-400.dtb
+   16586 -rwxr-xr-x     0      0     52540 13-Sep-2022 12:51 bcm2711-rpi-cm4.dtb
+   18564 -rwxr-xr-x     0      0   2973536 13-Sep-2022 12:53 start.elf
+   61655 -rwxr-xr-x     0      0       147 10-Sep-2022 08:39 cmdline.txt
+       6 -rwxr-xr-x     0      0      2150 11-Sep-2022 06:56 config.txt
+   16689 -rwxr-xr-x     0      0     49870 13-Sep-2022 12:51 bcm2711-rpi-cm4s.dtb
+   24374 -rwxr-xr-x     0      0    803964 13-Sep-2022 12:53 start_cd.elf
+   25945 -rwxr-xr-x     0      0   4816712 13-Sep-2022 12:53 start_db.elf
+   35353 -rwxr-xr-x     0      0   3720360 13-Sep-2022 12:53 start_x.elf
+   42620 -rwxr-xr-x     0      0      7262 13-Sep-2022 12:53 fixup.dat
+   42635 -rwxr-xr-x     0      0      3170 13-Sep-2022 12:53 fixup_cd.dat
+   42642 -rwxr-xr-x     0      0     10228 13-Sep-2022 12:53 fixup_db.dat
+   42662 -rwxr-xr-x     0      0     10226 13-Sep-2022 12:53 fixup_x.dat
+   42682 -rwxr-xr-x     0      0     52460 13-Sep-2022 12:53 bootcode.bin
+   42785 -rwxr-xr-x     0      0   2249280 13-Sep-2022 12:53 start4.elf
+   47179 -rwxr-xr-x     0      0    803964 13-Sep-2022 12:53 start4cd.elf
+   48750 -rwxr-xr-x     0      0   3744808 13-Sep-2022 12:53 start4db.elf
+   56065 -rwxr-xr-x     0      0   2996680 13-Sep-2022 12:53 start4x.elf
+   61963 -rwxr-xr-x     0      0      5399 13-Sep-2022 12:53 fixup4.dat
+   61974 -rwxr-xr-x     0      0      3170 13-Sep-2022 12:53 fixup4cd.dat
+   61981 -rwxr-xr-x     0      0      8379 13-Sep-2022 12:53 fixup4db.dat
+X  52828 -rwxr-xr-x     0      0   3717480 31-Mar-2022 19:40 _TART_X.ELF
+  458754 drwxr-xr-x     0      0         0 16-Aug-2022 18:55 System Volume Information
+   61998 -rwxr-xr-x     0      0      8379 13-Sep-2022 12:53 fixup4x.dat
+   62015 -rwxr-xr-x     0      0      1594 13-Sep-2022 12:53 LICENCE.broadcom
+X      0 -rwxr-xr-x     0      0         0 13-Sep-2022 12:48 bcm2710-rpi-3-b-plus.dtb.dpkg-divert.tmp
+SIGHUP detected! TestDisk has been killed.
